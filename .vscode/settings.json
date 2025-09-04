@@ -1,0 +1,15 @@
+{
+  "python.defaultInterpreterPath": "D:\\anaconda\\envs\\chatbots\\python.exe",
+  "python.terminal.activateEnvironment": true,
+
+  "terminal.integrated.defaultProfile.windows": "Anaconda Prompt (chatbots)",
+  "terminal.integrated.profiles.windows": {
+    "Anaconda Prompt (chatbots)": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/K",
+        "D:\\anaconda\\Scripts\\activate.bat D:\\anaconda && conda activate chatbots"
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*$py.class
+
+# Environment variables
+.env
+*.env
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+*.egg-info/
+.eggs/
+
+# Conda environment folders
+*/anaconda3/
+*/miniconda3/
+*/envs/
+
+# Logs
+*.log
+logs/
+logging/
+
+# IDE configs
+# .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage / test reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+.pytest_cache/
+
+# Build / dist
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# MyPy / Pyre type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# FastAPI / Uvicorn specific
+*.db
+*.sqlite3

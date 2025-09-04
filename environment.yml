@@ -1,0 +1,8 @@
+name: chatbots
+channels:
+  - defaults
+dependencies:
+  - pip
+  - fastapi
+  - uvicorn
+prefix: D:\anaconda\envs\chatbots
