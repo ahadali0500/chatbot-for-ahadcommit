@@ -1,8 +1,40 @@
 name: chatbots
 channels:
+  - conda-forge
   - defaults
 dependencies:
+  - python=3.13
   - pip
+  # --- core server stack ---
   - fastapi
   - uvicorn
-prefix: D:\anaconda\envs\chatbots
+  - pydantic
+  - starlette
+  - anyio
+  - h11
+  - click
+  # --- utils ---
+  - python-dotenv
+  - tqdm
+  - requests
+  - charset-normalizer
+  - idna
+  - typing-extensions
+  # --- install pip-specific packages ---
+  - pip:
+      - google-generativeai
+      - google-ai-generativelanguage
+      - google-api-core
+      - google-api-python-client
+      - google-auth
+      - google-auth-httplib2
+      - googleapis-common-protos
+      - grpcio
+      - grpcio-status
+      - httplib2
+      - proto-plus
+      - protobuf
+      - pyasn1
+      - pyasn1-modules
+      - uritemplate
+      - cachetools
