@@ -1,0 +1,30 @@
+conda create -n first_env python=3.10   // create virtual enviornment
+conda activate first_env                // activate enviorment
+conda deactivate                        // deactivate enviormemnt
+conda info --envs                       // display all enviornment
+pip install                             // install package
+conda info -e                          // list all enviormemnt
+conda remove --name first_env --all    // remove enviornment with all packages
+conda list                             // to see whole packages installed in that enviorment 
+
+conda env create -f environment.yml
+conda env update --file environment.yml --prune
+conda env export --from-history > environment.yml
+
+1- dataTypes, list [], tupals(), Dictionaries {:} and Sets{}
+
+
+
+
+
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload
+python -m alembic init migrations
+
+python -m alembic revision --autogenerate -m "make phone required with default"
+
+python -m alembic upgrade head
+
+
+
+
